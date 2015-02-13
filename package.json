@@ -1,0 +1,12 @@
+{
+  "name": "6to5-talk",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "cleaver index.md",
+    "dev": "http-server",
+    "start": "http-server -p $PORT"
+  },
+  "dependencies": {
+    "http-server": "*"
+  }
+}
